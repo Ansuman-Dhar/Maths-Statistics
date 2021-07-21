@@ -18,17 +18,19 @@
     flex-direction: column;
     justify-content: space-between;
     height: 15vh;
+    border: none;
 }
 
 #inputContainer label{
     margin-top: auto;
-    font-size: xx-large;
+    font-size: larger;
 }
 
 #inputContainer input{
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 1rem;
+    outline: none;
     border: 2px solid black;
 }
 
@@ -40,12 +42,6 @@
     justify-content: space-evenly;
 }
 
-/* .results{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 80vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-} */
+@media only screen and (min-width: 600px) {
+
+}
