@@ -1,6 +1,6 @@
 let dataSetDOMEle = document.getElementById('dataSET');
 let histogramCanvas = document.getElementById('chart').getContext('2d')
-let histogramCanvasInstance = drawHistoGram(histogramCanvas, [1, 1.5, 2], ["Init One", "Init One.Five", "Init Two"]);
+let histogramCanvasInstance = drawHistoGram(histogramCanvas, [5, 1, 4, 2, 4, 1, 5], ["Waiting For Data...", "Waiting For Data...", "Waiting For Data...", "Waiting For Data...", "Waiting For Data...", "Waiting For Data...", "Waiting For Data..."]);
 
 dataSetDOMEle.addEventListener('keyup', () => main())
 
