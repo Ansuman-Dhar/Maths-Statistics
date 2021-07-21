@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
+    <script defer src="./js/app.js"></script>
+</head>
+<body>
+    <div id="inputContainer">
+        <center><label for="dataSET">Enter dataSET (use <b>','</b> to separate data)</label></center>
+        <input id="dataSET" type="text" placeholder="Enter your data set">
+    </div>
+    <div class="results">
+        <div id="dataOutPut">
+            <span id="mean">Mean: Waiting For Data...</span>
+            <span id="median">Median: Waiting For Data.</span>
+            <span id="mode">Mode: Waiting For Data...</span>
+        </div>
+        <canvas id="chart"></canvas>
+    </div>
+</body>
+</html>
